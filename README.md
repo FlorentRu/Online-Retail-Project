@@ -9,18 +9,7 @@ This project demonstrates end-to-end data analysis and predictive modeling on a 
 - **Regression Modeling**: Predicting invoice totals based on aggregated invoice-level features.
 - **Explainable AI with SHAP**: Interpreting model predictions for transparent insights.
 
----
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)  
-2. [Dataset](#dataset)  
-3. [Features & Target](#features--target)  
-4. [Project Structure](#project-structure)   
-5. [Usage](#usage)  
-6. [Results & Findings](#results--findings)  
-7. [Next Steps](#next-steps)  
----
 
 ## Project Overview
 
@@ -94,11 +83,42 @@ A possible folder layout:
 ├── README.md └── requirements.txt
 
 
-- **`notebooks/`**: Jupyter notebooks for step-by-step analysis.  
-- **`data/`**: Contains `Retail.xlsx` (unprocessed dataset).  
-- **`src/`**: Python scripts for data processing, model training, and SHAP analysis.  
-- **`results/`**: Saved outputs and plots from the analysis.  
-- **`README.md`**: This documentation file.  
+## Usage
+
+1- Data Cleaning & EDA
+
+Open 01_data_cleaning_and_eda.ipynb.
+Follow the steps to remove duplicates, handle missing values, and investigate key insights (top products, countries, seasonal trends).
+
+2- Regression Modeling
+
+Open 02_modeling.ipynb.
+Aggregate data by invoice, define features such as total_quantity, avg_unit_price and the target, invoice_total.
+Split data, train a model (Random Forest or Linear Regression), and evaluate performance metrics.
+
+3- Model Explainability
+
+Open 03_shap_explainability.ipynb.
+Use SHAP (TreeExplainer or Explainer) on the trained model.
+View summary plots and dependence plots to see how each feature influences predictions.
+
+## Results & Findings
+
+1- EDA:
+
+Top-selling products and high-revenue months (often Q4).
+A few countries account for the majority of revenue.
+
+2- Model Performance:
+
+Example: Random Forest with R² ~ 0.65, showing moderate predictive power.
+Linear Regression might yield slightly lower R².
+
+3- SHAP Analysis:
+
+total_quantity tends to be the most influential feature.
+avg_unit_price and certain Country variables also significantly impact predictions.
+
 
 
 
