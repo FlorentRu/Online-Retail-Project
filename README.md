@@ -73,7 +73,9 @@ After cleaning, the data is **aggregated at the invoice level**:
 A possible folder layout:
 
 . ├── notebooks/ │
+
 ├── 01_data_cleaning_and_eda.ipynb │
+
 ├── 02_modeling.ipynb │ └── 03_shap_explainability.ipynb
 ├── data/ │ 
 └── Retail.xlsx
