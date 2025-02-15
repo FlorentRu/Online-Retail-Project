@@ -16,11 +16,10 @@ This project demonstrates end-to-end data analysis and predictive modeling on a 
 1. [Project Overview](#project-overview)  
 2. [Dataset](#dataset)  
 3. [Features & Target](#features--target)  
-4. [Project Structure](#project-structure)  
-5. [Installation & Requirements](#installation--requirements)  
-6. [Usage](#usage)  
-7. [Results & Findings](#results--findings)  
-8. [Next Steps](#next-steps)  
+4. [Project Structure](#project-structure)   
+5. [Usage](#usage)  
+6. [Results & Findings](#results--findings)  
+7. [Next Steps](#next-steps)  
 ---
 
 ## Project Overview
@@ -93,4 +92,13 @@ A possible folder layout:
 ├── shap_plots/ │ └── model_outputs/ 
 
 ├── README.md └── requirements.txt
+
+
+- **`notebooks/`**: Jupyter notebooks for step-by-step analysis.  
+- **`data/`**: Contains `Retail.xlsx` (unprocessed dataset).  
+- **`src/`**: Python scripts for data processing, model training, and SHAP analysis.  
+- **`results/`**: Saved outputs and plots from the analysis.  
+- **`README.md`**: This documentation file.  
+
+
 
