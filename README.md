@@ -17,7 +17,7 @@ This project demonstrates end-to-end data analysis and predictive modeling on a 
 - **Techniques**:  
   - **Pandas** for data wrangling  
   - **Scikit-learn** for modeling  
-  - **Matplotlib/Seaborn** for data visualization  
+  - **Matplotlib or Seaborn** for data visualization  
   - **SHAP** for model explainability  
 - **Business Value**: Helps retailers understand key revenue drivers, optimize product strategies, and tailor marketing efforts.
 
