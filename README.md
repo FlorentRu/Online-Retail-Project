@@ -86,7 +86,7 @@ A possible folder layout:
 
 ├── data_preprocessing.py │
 
-├── modeling.py │ └── shap_analysis.py 
+├── modeling.py │
 
 ├── results/ │ 
 
