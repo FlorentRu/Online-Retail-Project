@@ -72,17 +72,25 @@ After cleaning, the data is **aggregated at the invoice level**:
 
 A possible folder layout:
 
-. ├── notebooks/ │
+├── notebooks/ │
 
 ├── 01_data_cleaning_and_eda.ipynb │
 
 ├── 02_modeling.ipynb │ └── 03_shap_explainability.ipynb
+
 ├── data/ │ 
+
 └── Retail.xlsx
+
 ├── src/ │
+
 ├── data_preprocessing.py │
+
 ├── modeling.py │ └── shap_analysis.py 
+
 ├── results/ │ 
+
 ├── shap_plots/ │ └── model_outputs/ 
+
 ├── README.md └── requirements.txt
 
